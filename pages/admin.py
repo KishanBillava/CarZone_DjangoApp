@@ -10,10 +10,10 @@ class TeamAdmin(admin.ModelAdmin):
     thumbnail.short_description = 'photo'
 
     list_display = ('id', 'thumbnail', 'firstname', 'designation', 'created_date')
-    list_display_links = ('id','firstname',)
+    list_display_links = ('id','thumbnail' ,'firstname',)
 
     search_fields = ('id', 'firstname', 'lastname', 'designation')
 
-    list_filter = ('designation',) 
+    list_filter = ('designation',)
 
 admin.site.register(Team, TeamAdmin)
