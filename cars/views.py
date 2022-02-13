@@ -8,8 +8,19 @@ def cars(request):
     paginator = Paginator(cars, 4)
     page = request.GET.get('page')
     paged_cars = paginator.get_page(page)
+
+    model_search = Car.objects.values_list('model', flat=True).distinct()
+    city_search = Car.objects.values_list('city', flat=True).distinct()
+    year_search = Car.objects.values_list('year', flat=True).distinct()
+    body_style_search = Car.objects.values_list('body_style', flat=True).distinct() 
+
     data = {
         'cars': paged_cars,
+        
+        'model_search': model_search,
+        'city_search': city_search,
+        'year_search': year_search,
+        'body_style_search': body_style_search, 
     }
     return render(request, 'cars/cars.html', data)
 
@@ -47,10 +58,21 @@ def search(request):
         if year:
             cars = cars.filter(year__iexact=year)
 
+    # here we are checking if the keyword as body_style in the request get link 
     if 'body_style' in request.GET :
+        # if yes then contain the value of body_style in the variable body_style
         body_style = request.GET['body_style']
+        # if there is a value then filter the cars as per the body_style keywords and display the info 
+        # here body_style__iexact getting info from database and =body_style is from web page 
         if body_style:
             cars = cars.filter(body_style__iexact=body_style)
+
+    if 'min_price' in request.GET:
+        min_price = request.GET['min_price']
+        max_price = request.GET['max_price']
+        if max_price:
+            # gte -->  greater then or equal to 
+            cars = cars.filter(price__gte=min_price, price__lte=max_price)
 
 
     data = {

@@ -9,7 +9,9 @@ def home(request):
     teams = Team.objects.all()
     featured_cars = Car.objects.order_by('-created_date').filter(is_featured=True)
     all_cars = Car.objects.order_by('-created_date')
+    # here the return value is dist
     #search_fields = Car.objects.values('model', 'city', 'year', 'body_style')
+    # but here the return value is list 
     model_search = Car.objects.values_list('model', flat=True).distinct()
     city_search = Car.objects.values_list('city', flat=True).distinct()
     year_search = Car.objects.values_list('year', flat=True).distinct()
