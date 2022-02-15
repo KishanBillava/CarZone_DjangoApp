@@ -1,3 +1,4 @@
+
 $(function () {
 
     'use strict';
@@ -16,6 +17,7 @@ $(function () {
                         delay: 0
                     }
                 );
+
             });
             $('.filteriz-navigation li').on('click', function () {
                 $('.filteriz-navigation .filtr').removeClass('active');
@@ -479,3 +481,8 @@ $(function () {
         }
     }).trigger("resize");
 })(jQuery);
+
+
+setTimeout(function(){
+  $('#message').fadeOut('slow');
+}, 4000)
