@@ -26,7 +26,7 @@ SECRET_KEY = 'fh+a%bg_ui*2lh0t!x3tvrymm$$7&hj3n)c76%1oc$frg6xu9w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['salty-lake-93881.herokuapp.com/']
+ALLOWED_HOSTS = ['salty-lake-93881.herokuapp.com/'] #
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
