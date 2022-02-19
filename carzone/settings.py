@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'fh+a%bg_ui*2lh0t!x3tvrymm$$7&hj3n)c76%1oc$frg6xu9w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['salty-lake-93881.herokuapp.com'] #
 
