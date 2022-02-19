@@ -5,4 +5,4 @@ Back-end python-django project for carzone website.
 
 ❑ Heroku Cloud for deployment
 
-Link to website :  https://carzone-django-app.herokuapp.com/accounts/login
+Link to website :  https://carzone-django-app.herokuapp.com
