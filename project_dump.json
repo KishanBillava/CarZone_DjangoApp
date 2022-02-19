@@ -1,0 +1,1019 @@
+[
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "car_title": "2017 Ferrari 488 GTB",
+        "state": "TX",
+        "city": "Austin",
+        "color": "White",
+        "model": "488 GTB",
+        "year": 2017,
+        "condition": "Used",
+        "price": 40000,
+        "description": "<p>The&nbsp;<strong>Ferrari 488</strong>&nbsp;(Type F142M) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear_mid-engine,_rear-wheel_drive_layout\" title=\"Rear mid-engine, rear-wheel drive layout\">mid-engine</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sports_car\" title=\"Sports car\">sports car</a>&nbsp;produced by the Italian automobile manufacturer&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari\" title=\"Ferrari\">Ferrari</a>. The car replaced the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_458\" title=\"Ferrari 458\">458</a>, being the first mid-engine Ferrari to use a turbocharged V8 since the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F40\" title=\"Ferrari F40\">F40</a>.</p>\r\n\r\n<p>The car is powered by a 3.9-litre&nbsp;<a href=\"https://en.wikipedia.org/wiki/Twin-turbocharged\" title=\"Twin-turbocharged\">twin-turbocharged</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/V8_engine\" title=\"V8 engine\">V8 engine</a>, smaller in displacement but generating a higher power output than the 458&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Naturally_aspirated_engine\" title=\"Naturally aspirated engine\">naturally aspirated engine</a>. The 488 GTB was named &quot;The Supercar of the Year 2015&quot; by car magazine&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Top_Gear_(magazine)\" title=\"Top Gear (magazine)\">Top Gear</a></em>, as well as becoming&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Motor_Trend\" title=\"Motor Trend\">Motor Trend</a></em>&#39;s 2017 &quot;Best Driver&#39;s Car&quot;.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-7\">[7]</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jeremy_Clarkson\" title=\"Jeremy Clarkson\">Jeremy Clarkson</a>&nbsp;announced the 488 Pista as his 2019 Supercar of the Year.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-8\">[8]</a>&nbsp;The 488 was succeeded by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F8_Tributo\" title=\"Ferrari F8 Tributo\">F8 Tributo</a>&nbsp;in February 2019.</p>",
+        "car_photo": "photos/2022/02/05/1902536891.jpg",
+        "car_photo_1": "photos/2022/02/05/1902536917.jpg",
+        "car_photo_2": "photos/2022/02/05/1902537043.jpg",
+        "car_photo_3": "photos/2022/02/05/1902537077.jpg",
+        "car_photo_4": "photos/2022/02/05/1902537082.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Alarm System,Power Steering,Wind Deflector,Bluetooth Handset",
+        "body_style": "Sport",
+        "engine": "3.4L Mid-Engine V6",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 10000,
+        "doors": "3",
+        "passengers": 2,
+        "vin_no": "WP0AB2E81EK17885",
+        "milage": 5,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2022-02-05T17:16:30Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_title": "2017 Ford Edge",
+        "state": "TX",
+        "city": "Dallas",
+        "color": "Black",
+        "model": "Edge",
+        "year": 2017,
+        "condition": "Used",
+        "price": 25000,
+        "description": "<p>The&nbsp;<strong>Ford Edge</strong>&nbsp;is a range of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Crossover_(automobile)\" title=\"Crossover (automobile)\">crossover SUVs</a>&nbsp;manufactured by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>. Introduced for the 2007 model year, the Edge is the first&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mid-size_CUV\" title=\"Mid-size CUV\">mid-size CUV</a>&nbsp;marketed by Ford in North America; the model line is currently in its second generation. Deriving its name from a trim package of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Ranger_(Americas)\" title=\"Ford Ranger (Americas)\">Ford Ranger</a>, the Ford Edge is positioned between the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Escape\" title=\"Ford Escape\">Ford Escape</a>&nbsp;and the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Explorer\" title=\"Ford Explorer\">Ford Explorer</a>&nbsp;within the Ford product line.</p>",
+        "car_photo": "photos/2022/02/05/1901478607_JdFmItG.jpg",
+        "car_photo_1": "photos/2022/02/05/1901478646_Pc0Lpbq.jpg",
+        "car_photo_2": "photos/2022/02/05/1901478618_bZ3nvl1.jpg",
+        "car_photo_3": "photos/2022/02/05/1901478672_ApkSPld.jpg",
+        "car_photo_4": "photos/2022/02/05/1901478687_qBIn4f8.jpg",
+        "features": "Cruise Control,Audio Interface,Air Conditioning,Power Steering,Direct Fuel Injection,Auto Start/Stop",
+        "body_style": "SUV",
+        "engine": "3.4L Md-Engine V7",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 1500,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "WP0ATK221EK17",
+        "milage": 8,
+        "fuel_type": "Petrol",
+        "no_of_owners": "2",
+        "is_featured": false,
+        "created_date": "2022-02-05T17:23:48Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "2017 Ford F-250 Super Duty",
+        "state": "NY",
+        "city": "Ohio",
+        "color": "Black",
+        "model": "F-250",
+        "year": 2017,
+        "condition": "Used",
+        "price": 30000,
+        "description": "<p>The&nbsp;<strong>Ford Super Duty</strong>&nbsp;(short for F-Series Super Duty) is a series of trucks manufactured by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>. Introduced in 1998 for the 1999 model year (the 1998 model year was skipped), the F-Series Super Duty trucks marked the addition of a heavy-duty pickup to the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_F-Series\" title=\"Ford F-Series\">Ford F-Series</a>&nbsp;range with the new versions of the F-250, F-350, and F-450 trucks, while the previous 1987&ndash;1997 F-Super Duty&nbsp;<a href=\"https://en.wikipedia.org/wiki/Chassis_cab\" title=\"Chassis cab\">chassis cabs</a>&nbsp;were replaced by the F-450 chassis cab and F-550 Super Duty.</p>",
+        "car_photo": "photos/2022/02/05/1894300905.jpg",
+        "car_photo_1": "photos/2022/02/05/1894300920.jpg",
+        "car_photo_2": "photos/2022/02/05/1894300894.jpg",
+        "car_photo_3": "photos/2022/02/05/1900155133.jpg",
+        "car_photo_4": "photos/2022/02/05/1900155012.jpg",
+        "features": "Air Conditioning,Alarm System,ParkAssist,Reversing Camera,Direct Fuel Injection,Auto Start/Stop",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V7",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 13000,
+        "doors": "3",
+        "passengers": 2,
+        "vin_no": "WP0ATK1EK17",
+        "milage": 10,
+        "fuel_type": "Diesel",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2022-02-05T17:39:10Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "2017 Jaguar F-PACE",
+        "state": "TX",
+        "city": "Austin",
+        "color": "Green",
+        "model": "F-PACE",
+        "year": 2017,
+        "condition": "Used",
+        "price": 50000,
+        "description": "<p>The&nbsp;<strong>Jaguar F-Pace</strong>&nbsp;(X761) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_executive_car\" title=\"Compact executive car\">compact luxury</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Crossover_SUV\" title=\"Crossover SUV\">crossover SUV</a>&nbsp;made by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Land_Rover\" title=\"Jaguar Land Rover\">Jaguar Land Rover</a>, a British&nbsp;<a href=\"https://en.wikipedia.org/wiki/Automaker\" title=\"Automaker\">car manufacturer</a>, under their&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Cars\" title=\"Jaguar Cars\">Jaguar marque</a>. It is the first model to be built by Jaguar in the SUV class. It was formally announced at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/North_American_International_Auto_Show#2015\" title=\"North American International Auto Show\">2015 North American International Auto Show</a>&nbsp;in Detroit, with sales commencing in 2016 following an unveiling at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/International_Motor_Show_Germany#2015\" title=\"International Motor Show Germany\">International Motor Show Germany</a>&nbsp;in Frankfurt in September 2015.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-4\">[4]</a>&nbsp;The design of the F-Pace is based on the 2013&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_C-X17\" title=\"Jaguar C-X17\">Jaguar C-X17</a>&nbsp;concept car.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-BBC_News_120115-5\">[5]</a>&nbsp;The 2017 Jaguar F-PACE has been named the honorary winner of the 2017 World Car of the Year and World Car Design of the Year Awards at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/New_York_International_Auto_Show\" title=\"New York International Auto Show\">New York International Auto Show</a>.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-6\">[6]</a></p>",
+        "car_photo": "photos/2022/02/05/1902932542.jpg",
+        "car_photo_1": "photos/2022/02/05/1902932514.jpg",
+        "car_photo_2": "photos/2022/02/05/1902932503.jpg",
+        "car_photo_3": "photos/2022/02/05/1902932528.jpg",
+        "car_photo_4": "",
+        "features": "Cruise Control,Audio Interface,Airbags,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "3.4L Mid-Engine V9",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles": 12500,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "BP0AB2E81EK178",
+        "milage": 7,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2022-02-05T17:42:52Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 5,
+    "fields": {
+        "car_title": "Maruti Swift ZXI Plus",
+        "state": "IN",
+        "city": "Indianapolis",
+        "color": "Red",
+        "model": "ZXI Plus",
+        "year": 2019,
+        "condition": "Used",
+        "price": 20000,
+        "description": "<p>The&nbsp;<strong>Suzuki Swift</strong>&nbsp;(Japanese: \u30b9\u30ba\u30ad\u30fb\u30b9\u30a4\u30d5\u30c8,&nbsp;<em>Suzuki Suifuto</em>)&nbsp;is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Subcompact_car\" title=\"Subcompact car\">subcompact car</a>&nbsp;produced by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Suzuki\" title=\"Suzuki\">Suzuki</a>. The vehicle is classified as a&nbsp;<a href=\"https://en.wikipedia.org/wiki/B-segment\" title=\"B-segment\">B-segment</a>&nbsp;marque in the European single market, a segment referred to as a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Supermini\" title=\"Supermini\">supermini</a>&nbsp;in the British Isles. Prior to this, the &quot;Swift&quot; nameplate had been applied and purchased from&nbsp;<a href=\"https://en.wikipedia.org/wiki/Swift_Engineering\" title=\"Swift Engineering\">Swift Engineering</a>&nbsp;(previously known as&nbsp;<em>Swift Cars</em>)[<em><a href=\"https://en.wikipedia.org/wiki/Wikipedia:Citation_needed\" title=\"Wikipedia:Citation needed\">citation needed</a></em>]&nbsp;to the rebadged&nbsp;<a href=\"https://en.wikipedia.org/wiki/Suzuki_Cultus\" title=\"Suzuki Cultus\">Suzuki Cultus</a>&nbsp;in numerous export markets since 1983 and became its own model since 2004.<a href=\"https://en.wikipedia.org/wiki/Suzuki_Swift#cite_note-5milion-2\">[2]</a><a href=\"https://en.wikipedia.org/wiki/Suzuki_Swift#cite_note-swift05-3\">[3]</a>&nbsp;Currently, the Swift is positioned between&nbsp;<a href=\"https://en.wikipedia.org/wiki/Suzuki_Ignis\" title=\"Suzuki Ignis\">Ignis</a>&nbsp;and&nbsp;<a href=\"https://en.wikipedia.org/wiki/Suzuki_Baleno_(2015)\" title=\"Suzuki Baleno (2015)\">Baleno</a>&nbsp;in Suzuki hatchback global lineup.&nbsp;</p>",
+        "car_photo": "photos/2022/02/07/2022-02-08_05-10-19.png",
+        "car_photo_1": "photos/2022/02/07/2022-02-08_05-12-08.png",
+        "car_photo_2": "photos/2022/02/07/2022-02-08_05-12-25.png",
+        "car_photo_3": "photos/2022/02/07/2022-02-08_05-13-03.png",
+        "car_photo_4": "",
+        "features": "Cruise Control,Air Conditioning,ParkAssist,Auto Start/Stop",
+        "body_style": "hatchback",
+        "engine": "Engine 1197",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 2000,
+        "doors": "5",
+        "passengers": 4,
+        "vin_no": "INDTK221EK17",
+        "milage": 20,
+        "fuel_type": "Petrol",
+        "no_of_owners": "2",
+        "is_featured": true,
+        "created_date": "2022-02-07T23:55:46Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 6,
+    "fields": {
+        "car_title": "Tata Tiago XZ Plus",
+        "state": "IN",
+        "city": "Indianapolis",
+        "color": "Gray",
+        "model": "XZ Plus",
+        "year": 2019,
+        "condition": "Used",
+        "price": 25000,
+        "description": "<p><strong>Tata Tiago</strong>&nbsp;is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/City_car\" title=\"City car\">city car</a>&nbsp;made by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Tata_Motors_Cars\" title=\"Tata Motors Cars\">Tata Motors</a>&nbsp;in India since 2016. It is derived from the Tata Kite project.</p>\r\n\r\n<p>The Tiago was previously announced as the&nbsp;<strong>Tata Zica</strong>, with &quot;Zica&quot; short for &quot;zippy car&quot;, but it was changed because the launch of the car coincide with the outbreak of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Zika_virus\" title=\"Zika virus\">Zika virus</a>.<a href=\"https://en.wikipedia.org/wiki/Tata_Tiago#cite_note-nyt-3\">[3]</a>&nbsp;Tiago, a common Portuguese masculine name, was picked from suggestions solicited online.</p>",
+        "car_photo": "photos/2022/02/07/2022-02-08_05-15-43.png",
+        "car_photo_1": "photos/2022/02/07/2022-02-08_05-16-14.png",
+        "car_photo_2": "photos/2022/02/07/2022-02-08_05-16-34.png",
+        "car_photo_3": "photos/2022/02/07/2022-02-08_05-17-11.png",
+        "car_photo_4": "",
+        "features": "Cruise Control,Seat Heating,Reversing Camera,Wind Deflector",
+        "body_style": "hatchback",
+        "engine": "Engine 1190",
+        "transmission": "Manual",
+        "interior": "Grey",
+        "miles": 1500,
+        "doors": "5",
+        "passengers": 4,
+        "vin_no": "INDTK221E111",
+        "milage": 25,
+        "fuel_type": "Diesel",
+        "no_of_owners": "1",
+        "is_featured": false,
+        "created_date": "2022-02-07T23:58:23Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "firstname": "Martin",
+        "lastname": "Smith",
+        "designation": "Founder",
+        "photo": "photos/2021/38/10/14/21/avatar-11.jpg",
+        "facebook_link": "https://facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://google.com/",
+        "created_date": "2021-10-14T19:38:08.329Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "firstname": "Stone",
+        "lastname": "Carolyn",
+        "designation": "Creative Director",
+        "photo": "photos/2021/39/10/14/21/avatar-10.jpg",
+        "facebook_link": "https://facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://google.com/",
+        "created_date": "2021-10-14T19:39:33.531Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "firstname": "Brandon",
+        "lastname": "Miller",
+        "designation": "Co Founder",
+        "photo": "photos/2021/41/10/14/21/avatar-1.jpg",
+        "facebook_link": "https://facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://google.com/",
+        "created_date": "2021-10-14T19:41:05.639Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 5,
+    "fields": {
+        "firstname": "John",
+        "lastname": "Doe",
+        "designation": "CEO",
+        "photo": "photos/2021/42/10/14/21/avatar-12.jpg",
+        "facebook_link": "https://facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://google.com/",
+        "created_date": "2021-10-14T19:42:57.110Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 6,
+    "fields": {
+        "firstname": "Michelle",
+        "lastname": "Nelson",
+        "designation": "Support Manager",
+        "photo": "photos/2021/44/10/14/21/avatar-9.jpg",
+        "facebook_link": "https://facebook.com/",
+        "twitter_link": "https://twitter.com/",
+        "google_plus_link": "https://google.com/",
+        "created_date": "2021-10-14T19:44:54.028Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "Kishan",
+        "last_name": "Billava",
+        "car_id": 5,
+        "customer_need": "I'd like to know your best price for this",
+        "car_title": "Maruti Swift ZXI Plus",
+        "city": "Austin",
+        "state": "Texas",
+        "email": "kishanb@gmail.com",
+        "phone": "1234567890",
+        "message": "I need more info on this car ",
+        "user_id": 1,
+        "create_date": "2022-02-16T11:49:43.269Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 3,
+    "fields": {
+        "first_name": "tushar",
+        "last_name": "poojari",
+        "car_id": 6,
+        "customer_need": "I'd like to test drive this",
+        "car_title": "Tata Tiago XZ Plus",
+        "city": "Austin",
+        "state": "Texas",
+        "email": "TusharB01@gmail.com",
+        "phone": "0987654321",
+        "message": "I want to text drive this car. ",
+        "user_id": 0,
+        "create_date": "2022-02-16T12:01:51.422Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 4,
+    "fields": {
+        "first_name": "Kishan",
+        "last_name": "Billava",
+        "car_id": 6,
+        "customer_need": "I'm interested in this",
+        "car_title": "Tata Tiago XZ Plus",
+        "city": "Austin",
+        "state": "Texas",
+        "email": "kishanbillava73@gmail.com",
+        "phone": "1234567890",
+        "message": "I need more info on this car ",
+        "user_id": 1,
+        "create_date": "2022-02-16T22:14:47.872Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 5,
+    "fields": {
+        "first_name": "Sharan",
+        "last_name": "poojari",
+        "car_id": 1,
+        "customer_need": "I'm interested in this",
+        "car_title": "2017 Ferrari 488 GTB",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "email": "Sharan123@gmail.com",
+        "phone": "1234567890",
+        "message": "Test Comments",
+        "user_id": 1,
+        "create_date": "2022-02-16T23:37:16.078Z"
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$cDo8h2ERH30n$rbYDHkeyjwFowFnhLFDVv6bJ4a0RSV9SlJokKNW8Kg0=",
+        "last_login": "2022-02-16T23:35:52.073Z",
+        "is_superuser": true,
+        "username": "djangoadmin",
+        "first_name": "Kishan",
+        "last_name": "Billava",
+        "email": "kishanbillava73@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-10-14T18:06:49Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$N30mz9IBD8oy$f2V741QhG79ULdpdXCy0QW4cxJXa+knE8n7VYp9f89E=",
+        "last_login": "2022-02-15T07:33:38.808Z",
+        "is_superuser": false,
+        "username": "TusharB",
+        "first_name": "Tushar",
+        "last_name": "Billava",
+        "email": "TusharB01@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-02-15T07:14:52.953Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!UTxExap1x9JHk2HMXQLxmWEduXw5HodCRj1fotNC",
+        "last_login": "2022-02-15T13:00:47.328Z",
+        "is_superuser": false,
+        "username": "kishan",
+        "first_name": "Kishan",
+        "last_name": "Mahabala",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-02-15T13:00:47.146Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!A8MTvneoiquXpAEQrxMWlyZUw5MAymoSLdNYGRwm",
+        "last_login": "2022-02-15T13:18:04.479Z",
+        "is_superuser": false,
+        "username": "kishan5",
+        "first_name": "Kishan",
+        "last_name": "Mahabala",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-02-15T13:18:04.347Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "3evt7diw81xzj2axap6cf6wc7pehnb70",
+    "fields": {
+        "session_data": "OTNiNTNiZDIxMDIxYWQ1MmEwMzZjOThiYWQ4ODg5NTNkZGI4N2FkZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJhOWI5NjE5NGQzYzgzZGIwNjkzNzM5YzZhNjc0ZTMyOTljYTYxNTM0In0=",
+        "expire_date": "2022-02-09T12:30:08.055Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "a6kysc7y9cyfsiyqtknow40t1mu7jr7h",
+    "fields": {
+        "session_data": "MjI0MmYyYzUyN2M5OTUxNzI4N2RlOTdlMTA2MTVjYTQ2YTFhM2FmMjp7InNvY2lhbGFjY291bnRfc3RhdGUiOlt7InByb2Nlc3MiOiJsb2dpbiIsInNjb3BlIjoiIiwiYXV0aF9wYXJhbXMiOiIifSwickV5cE01ckJIbElEIl19",
+        "expire_date": "2022-03-01T12:47:41.003Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "f75de8xwbgq6hgu9832isqu64wmxgkbd",
+    "fields": {
+        "session_data": "OTNiNTNiZDIxMDIxYWQ1MmEwMzZjOThiYWQ4ODg5NTNkZGI4N2FkZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJhOWI5NjE5NGQzYzgzZGIwNjkzNzM5YzZhNjc0ZTMyOTljYTYxNTM0In0=",
+        "expire_date": "2021-10-28T18:07:47.352Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "kcmg8pyr8rmrybwp32ugd8ajxuppxp10",
+    "fields": {
+        "session_data": "OTNiNTNiZDIxMDIxYWQ1MmEwMzZjOThiYWQ4ODg5NTNkZGI4N2FkZTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJhOWI5NjE5NGQzYzgzZGIwNjkzNzM5YzZhNjc0ZTMyOTljYTYxNTM0In0=",
+        "expire_date": "2022-02-28T13:13:01.165Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "name": "Facebook login",
+        "client_id": "977125909850082",
+        "secret": "f24f331c27c28bd33298822943b69017",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "name": "Google Login",
+        "client_id": "518660132170-26k2hjknm1sv07g5o097nbd0pf9g8a9i.apps.googleusercontent.com",
+        "secret": "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",
+        "key": "",
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "kishan"
+        ],
+        "provider": "facebook",
+        "uid": "5287101957969280",
+        "last_login": "2022-02-15T13:00:47.207Z",
+        "date_joined": "2022-02-15T13:00:47.207Z",
+        "extra_data": "{\"id\": \"5287101957969280\", \"name\": \"Kishan Mahabala\", \"first_name\": \"Kishan\", \"last_name\": \"Mahabala\"}"
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "kishan5"
+        ],
+        "provider": "google",
+        "uid": "100606217440693955793",
+        "last_login": "2022-02-15T13:18:04.417Z",
+        "date_joined": "2022-02-15T13:18:04.417Z",
+        "extra_data": "{\"id\": \"100606217440693955793\", \"name\": \"Kishan Mahabala\", \"given_name\": \"Kishan\", \"family_name\": \"Mahabala\", \"picture\": \"https://lh3.googleusercontent.com/a-/AOh14Ghbv9fqmRn04merUI1cdxABwLJaTDvRLortlXLcnQ=s96-c\", \"locale\": \"en\"}"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-10-14T18:10:10.206Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "djangoadmin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-10-14T18:44:56.212Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Team object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-10-14T19:30:52.898Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Kishan",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-10-14T19:36:34.810Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Kishan",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-10-14T19:38:08.331Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Martin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-10-14T19:39:33.532Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Stone",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-10-14T19:41:05.644Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Brandon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-10-14T19:42:57.111Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "John",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-10-14T19:44:54.034Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "6",
+        "object_repr": "Michelle",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-02-05T17:16:36.539Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Car object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-02-05T17:25:20.134Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "Car object (1)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-02-05T17:31:53.387Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "Car object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-02-05T17:39:13.157Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "Car object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-02-05T17:42:54.255Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "Car object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2022-02-05T19:36:50.464Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2022-02-05T19:36:50.521Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2022-02-07T23:55:49.681Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "Maruti Swift ZXI Plus",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2022-02-07T23:58:25.134Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "Tata Tiago XZ Plus",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2022-02-14T12:41:25.776Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "Tata Tiago XZ Plus",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Transmission\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2022-02-14T13:32:03.309Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "Tata Tiago XZ Plus",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2022-02-14T13:32:57.831Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "Tata Tiago XZ Plus",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2022-02-14T13:33:06.561Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "Tata Tiago XZ Plus",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2022-02-14T13:33:21.493Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "Tata Tiago XZ Plus",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2022-02-15T11:15:01.693Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2022-02-15T11:15:53.323Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8080",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2022-02-15T12:46:56.376Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2022-02-15T13:13:51.154Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google Login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2022-02-16T11:52:19.435Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "contacts",
+            "contact"
+        ],
+        "object_id": "1",
+        "object_repr": "kishanb@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}
+]
