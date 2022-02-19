@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'fh+a%bg_ui*2lh0t!x3tvrymm$$7&hj3n)c76%1oc$frg6xu9w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -63,6 +64,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware', 
 ]
 
 ROOT_URLCONF = 'carzone.urls'
@@ -89,16 +91,18 @@ WSGI_APPLICATION = 'carzone.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',  #sqlite3',
-        'NAME': 'carzone_db',    #os.path.join(BASE_DIR, 'db.sqlite3'),
-        'USER': 'postgres',
-        'PASSWORD': 'localsql',
-        'HOST': 'localhost',
-    }
-}
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',  #sqlite3',
+#         'NAME': 'carzone_db',    #os.path.join(BASE_DIR, 'db.sqlite3'),
+#         'USER': 'postgres',
+#         'PASSWORD': 'localsql',
+#         'HOST': 'localhost',
+#     }
+# }
+
+DATABASES = { ‘default’: dj_database_url.config(default='postgres://postgres:localsql@localhost/carzone_db') }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
@@ -163,3 +167,7 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'mikedeta35@gmail.com'
 EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
+
+
+#  whitenoise settings
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFileStorage'
